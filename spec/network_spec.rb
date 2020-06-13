@@ -1,6 +1,6 @@
 require_relative 'spec_helper'
 
-describe "Network" do
+describe Network do
   let(:network) { Network.new }
 
   it "has data attributes" do
