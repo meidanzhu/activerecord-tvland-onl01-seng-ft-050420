@@ -4,10 +4,9 @@ class Show < ActiveRecord::Base
   belongs_to :network
 
   def actors_list
-    arr = []
+    full_name = []
     self.actors.each do |actor|
-      arr << actor.full_name
+      full_name << actor.full_name
     end
-    arr
   end
 end
