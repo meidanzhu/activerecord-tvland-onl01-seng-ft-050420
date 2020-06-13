@@ -1,6 +1,6 @@
 require_relative 'spec_helper'
 
-describe "Show" do
+describe Show do
   let(:show) {Show.new}
 
   it "has data attributes" do
