@@ -1,6 +1,6 @@
 require_relative 'spec_helper'
 
-describe "Character" do
+describe Character do
 
   it "has a first and last name" do
     jerry = Character.create(name:'Jerry')
